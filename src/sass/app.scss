@@ -1,1 +1,121 @@
 // Продължи с твоя SCSS или обикновен CSS код тук.
+.body{
+   color:#FDF8EC;
+}
+
+.header-button {
+        padding: auto;
+        width: 75%;
+}
+
+.nav-item {
+    width: 90px;
+    height: 26px;
+    gap: 32 px;
+    flex-direction: column;
+}
+
+.navbar {
+ margin: 2em 10rem;
+display: flex;
+justify-content: space-between;
+width: 1400px;
+height: 8 vh ;
+text-decoration: none;
+margin-bottom: 6rem;
+
+}
+.nav-menu > a {
+    text-decoration: none;
+    color: #9b582e;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 75%;
+}
+.header{
+    margin: auto 25%;
+}
+
+.title{
+    max-width:700px ;
+    margin: auto;
+    color: #9B582E;
+    font-size: 32px;
+    font-family: serif;
+    
+    
+}
+
+.brown-words {
+color: #533019;
+}
+
+
+.description {
+    width: 30%;
+    text-align: center;
+}
+
+.request {
+     border-radius: 32px;
+     color: white;
+     background-color:#9B582E;
+     display: block;
+  margin: auto;
+}
+
+.more-info{
+    border-radius: 32px;
+    color:#9B582E;
+    background-color:white;
+    display: block;
+  margin: auto;
+  justify-content: center;
+}
+.more-info:hover{
+    border-radius: 32px;
+    color: white;
+    background-color:#9B582E; 
+    transition-duration: 1s;
+
+}
+
+.kind {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+
+.pz{
+    flex-direction: column;
+}
+
+.definition{
+    display: flex;
+    justify-content:center;
+    gap: 200px;
+}
+
+.chef {
+display: flex;
+justify-content: center;
+margin: auto;
+
+
+
+}
+.nevajno{
+    display: flex;
+}
+ 
+.deserti{
+ border-radius: 50%;
+ background-color: #FBF4DF;
+ width: 65%;
+ width: 1350px;
+}
